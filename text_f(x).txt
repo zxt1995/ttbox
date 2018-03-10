@@ -1,0 +1,12 @@
+var k,p;
+//½×³ËµÄµİ¹éµ÷ÓÃ
+procedure fack(n);
+begin
+  if (n=0) return 1;
+  else return n*fack(n-1); 
+end;
+begin
+    p:=5;
+    k:= fack(p);
+end.
+
