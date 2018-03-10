@@ -1,0 +1,17 @@
+var i,j,k,p;
+begin
+  i:=7;
+  switch(i-1)
+  begin
+    case 1:
+      k:=20;
+    case 6:
+      p:=30;
+    case 8:
+      j:=40;
+      break;
+    default:
+      i:=100;
+  end;
+end.
+

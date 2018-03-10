@@ -1,0 +1,13 @@
+var i,j,k,p;
+begin
+   p:=0;
+l2:
+   p:=p+1;
+   if (p<3) goto l2;
+   else goto l1;
+   p:=10;
+   exit;
+l1:
+   p:=100;//结果应该是100
+end.
+  
